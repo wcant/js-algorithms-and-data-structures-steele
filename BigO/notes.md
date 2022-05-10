@@ -45,7 +45,7 @@ with a for loop with a nested for loop, then the number of operations is quadrat
   }
 ```
 
-## Rules to help simplify O expressions
+### Rules to help simplify O expressions
 
 1. constants dont matter
     - O(2n) ===> O(n)
@@ -57,7 +57,7 @@ with a for loop with a nested for loop, then the number of operations is quadrat
     - O(1000n + 50) ===> O(n)
     - O(n^2 + 5n + 8) ===> O(n^2)
 
-## Big O Shorthands
+### Big O Shorthands
 
 1. Arithmetic operations are constant
 2. variable assignment is constant
@@ -72,7 +72,7 @@ Sometimes you hear the term auxiliary space complexity to refer to space require
 - Strings requrie O(n) space (where n is the string length)
 - reference types are generally O(n), where n is the length (for arrays) or the number of keys for an object
 
-## Logarithms
+### Logarithms
 
 - Certain searching algorithms have log time complexity
 - efficient sorting algorithms involve log
